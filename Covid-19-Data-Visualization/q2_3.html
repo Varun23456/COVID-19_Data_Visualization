@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>India AQI Visualization</title>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/q2_3.css">
+</head>
+
+<body>
+    <button class="back-button" onclick="window.location.href='q2.html'" style="position: fixed;">← Back</button>
+    <div class="container">
+        <h1 class="dashboard-title">Air Quality Index Across Major Indian Cities</h1>
+        <h3 style="color: white; text-align: center;">Click on a city to view its monthly AQI trend</h3>
+        <div class="visualization-container">
+            <div class="map-view">
+                <svg id="map" width="100%" height="100%"></svg>
+            </div>
+            <div class="graph-view">
+                <button class="back-button" onclick="showMap()" style="position: fixed;">← Back to Map</button>
+                <h2 class="graph-title" id="graph-title">Monthly AQI Trends</h2>
+                <svg id="graph" width="1000" height="500"></svg>
+                <div class="legend">
+                    <div class="legend-item">
+                        <div class="legend-color" style="background-color: #2a9d8f;"></div>
+                        <span style="color: white;">Pre-lockdown (Jan-Mar)</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background-color: #e63946;"></div>
+                        <span style="color: white;">Lockdown (Apr-Jun)</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background-color: #f9c74f;"></div>
+                        <span style="color: white;">Post-lockdown (Jul-Dec)</span>
+                    </div>
+                </div>
+                <div class="lockdown-note">
+                    <p style="color: white;">The visualization shows AQI changes across three distinct periods: pre-lockdown (January-March), 
+                    lockdown (April-June), and post-lockdown (July-December)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="JS/q2_3.js">
+        
+    </script>
+</body>
+</html>
