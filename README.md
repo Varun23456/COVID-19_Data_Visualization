@@ -150,32 +150,6 @@ covid19-data-visualization/
 - **Pattern Recognition**: Seasonal and cyclical pattern identification
 - **Comparative Studies**: Cross-regional and cross-temporal comparisons
 
-## Technical Details
-
-### Frontend Technologies
-- **HTML5**: Semantic markup and structure
-- **CSS3**: Responsive design and animations
-- **JavaScript (ES6+)**: Interactive functionality and data processing
-- **D3.js**: Advanced data visualization framework
-- **Chart.js**: Chart rendering and interactions
-
-### Data Processing
-- **CSV Parsing**: Client-side CSV data processing
-- **Data Transformation**: Real-time data manipulation
-- **Statistical Calculations**: Mean, median, correlation analysis
-- **Filtering and Aggregation**: Dynamic data filtering
-
-### Performance Optimization
-- **Lazy Loading**: On-demand data loading
-- **Caching**: Browser-based data caching
-- **Minification**: Optimized CSS and JavaScript
-- **Responsive Images**: Adaptive image loading
-
-### Browser Compatibility
-- **Modern Browsers**: Chrome 60+, Firefox 55+, Safari 12+, Edge 79+
-- **Mobile Support**: Responsive design for tablets and phones
-- **Progressive Enhancement**: Fallbacks for older browsers
-
 
 ## Known Issues and Limitations
 
